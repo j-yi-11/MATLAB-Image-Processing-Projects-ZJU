@@ -1,0 +1,15 @@
+import cv2
+
+# 取消注释本段后实现真彩色->灰度图
+# img = cv2.imread('myresource/xitel.jpg', cv2.IMREAD_GRAYSCALE)
+# cv2.imshow('the gray image', img)
+# cv2.waitKey(0)
+# cv2.imwrite('gray.jpg', img)
+
+# 取消注释本段后实现真彩色->二值图
+# img = cv2.imread('myresource/xitel.jpg')
+# Grayimg = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+# ret, thresh = cv2.threshold(Grayimg, 12, 255, cv2.THRESH_BINARY)
+# cv2.imshow('the binary image', img)
+# cv2.waitKey(0)
+# cv2.imwrite('binary.jpg', thresh)
